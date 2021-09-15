@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Calcula</h1>
+		<p>Versão beta</p>
+		<form name="calculator" class="cb2">
+		<input type="textfield" name="ans" value="" class="wv">
+
+		<ul>
+			<li><button type="button" value="1" onClick="document.calculator.ans.value+='1'">1</button></li>
+			<li><button type="button" value="2" onClick="document.calculator.ans.value+='2'">2</button></li>
+			<li><button type="button" value="3" onClick="document.calculator.ans.value+='3'">3</button></li>
+			<li><button type="button" value="+" onClick="document.calculator.ans.value+='+'">+</button></li>
+		</ul>
+		<ul>
+			<li><button type="button" value="4" onClick="document.calculator.ans.value+='4'">4</button></li>
+			<li><button type="button" value="5" onClick="document.calculator.ans.value+='5'">5</button></li>
+			<li><button type="button" value="6" onClick="document.calculator.ans.value+='6'">6</button></li>
+			<li><button type="button" value="-" onClick="document.calculator.ans.value+='-'">-</button></li>
+		</ul>
+		<ul>
+			<li><button type="button" value="7" onClick="document.calculator.ans.value+='7'">7</button></li>
+			<li><button type="button" value="8" onClick="document.calculator.ans.value+='8'">8</button></li>
+			<li><button type="button" value="9" onClick="document.calculator.ans.value+='9'">9</button></li>
+			<li><button type="button" value="*" onClick="document.calculator.ans.value+='*'">*</button></li>
+		</ul>
+		<ul>
+			<li><button type="button" value="/" onClick="document.calculator.ans.value+='/'">/</button></li>
+			<li><button type="button" value="0" onClick="document.calculator.ans.value+='0'">0</button></li>
+			<li><button type="reset" value="Reset">C</button></li>
+			<li><button type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">=</button><li>
+		</ul>
+
+	</form>
+	</div>
+
+</body>
+</html>
